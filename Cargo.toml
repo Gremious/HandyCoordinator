@@ -1,0 +1,20 @@
+[package]
+name = "handy-coordinator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+buttplug = "7"
+# buttplug = { version = "7", path = "./buttplug/buttplug" }
+# buttplug_derive = { version = "8", path = "./buttplug/buttplug_derive" }
+tokio = { version = "1", features = ["full"] }
+anyhow = "1"
+futures = "0.3"
+json = "0.12"
+serde_json = "1"
+tokio-tungstenite = "0.21.0"
+serde = "1.0.195"
+rand = "0.8.5"
+once_cell = "1.19.0"
